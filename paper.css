@@ -1,0 +1,54 @@
+.header
+{
+    background-color: rgb(1, 1, 50);
+    color: white;
+    text-align: center;
+    font-size:50px ;
+    padding:8px;
+    margin: -10px;
+}
+.im
+{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   margin-top: 100px;
+   margin-left: 400px;
+   gap: 35px;
+   width: 800px;
+}
+.img {
+    border-radius: 200px;
+    cursor: pointer;
+    
+  }
+  
+.img:hover
+{
+   
+   border: 10px solid black;
+}
+.board
+{
+    justify-content: center;
+   align-items: center;
+   display: flex;
+   gap: 5rem;
+   font-size: 2rem;
+  
+}
+.msg
+{
+   background-color: black;
+   color: white;
+   font-size: 2rem;
+   width: 400px;
+   margin-left: 570px;
+   text-align: center;
+  padding: 1px;
+}
+#user,#comp
+{
+    
+    font-size: 4rem;
+}
